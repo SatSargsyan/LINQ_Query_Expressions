@@ -21,8 +21,10 @@ where cust.City=="Երևան" && cust.Name == "Գագիկ"
 ```C#
  where cust.City == "Երևան" || cust.City == "Paris"
 ```
-
+Labbda-ov tipavorvats enq talis
 Groupby
 Select
 where
+####<a href=https://msdn.microsoft.com/en-us/library/bb348436(v=vs.110).aspx>Distinct</a>
+####<a href=https://msdn.microsoft.com/en-us/library/bb534972(v=vs.110).aspx>Any</a>
 
