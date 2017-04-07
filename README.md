@@ -1,7 +1,7 @@
 # LINQ  Query Expressions
 
 
-<a href=https://msdn.microsoft.com/en-us/library/bb397676.aspx> LINQ  Query Expressions</a>
+[LINQ  Query Expressions](https://msdn.microsoft.com/en-us/library/bb397676.aspx)
 
 ### Filtering
 #### Probably the most common query operation is to apply a filter in the form of a Boolean expression. The filter causes the query to return only those elements for which the expression is true. The result is produced by using the where clause. The filter in effect specifies which elements to exclude from the source sequence. In the following example, only those customers who have an address in Երևան are returned.
@@ -25,6 +25,6 @@ Labbda-ov tipavorvats enq talis
 Groupby
 Select
 where
-#### <a href=https://msdn.microsoft.com/en-us/library/bb348436(v=vs.110).aspx> Distinct</a>
-#### <a href=https://msdn.microsoft.com/en-us/library/bb534972(v=vs.110).aspx> Any</a>
+####  Distinct](https://msdn.microsoft.com/en-us/library/bb348436(v=vs.110).aspx)
+####  [Any](https://msdn.microsoft.com/en-us/library/bb534972(v=vs.110).aspx)
 
