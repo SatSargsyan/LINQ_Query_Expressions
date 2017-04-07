@@ -25,6 +25,6 @@ Labbda-ov tipavorvats enq talis
 Groupby
 Select
 where
-####  Distinct](https://msdn.microsoft.com/en-us/library/bb348436(v=vs.110).aspx)
+####  [Distinct](https://msdn.microsoft.com/en-us/library/bb348436(v=vs.110).aspx)
 ####  [Any](https://msdn.microsoft.com/en-us/library/bb534972(v=vs.110).aspx)
 
