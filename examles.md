@@ -35,4 +35,31 @@ var leftOuterJoinQuery =
     from item in prodGroup.DefaultIfEmpty(new Product { Name = String.Empty, CategoryID = 0 })
     select new { CatName = category.Name, ProdName = item.Name };
 ```
-### []()
+### [Group clause](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/group-clause)
+```C#
+// Query variable is an IEnumerable<IGrouping<char, Student>>
+var studentQuery1 =
+    from student in students
+    group student by student.Last[0];
+```
+
+
+```C#
+// Group students by the first letter of their last name
+// Query variable is an IEnumerable<IGrouping<char, Student>>
+var studentQuery2 =
+    from student in students
+    group student by student.Last[0] into g
+    orderby g.Key
+    select g;
+    
+```
+
+
+```C#
+// Same as previous example except we use the entire last name as a key.
+// Query variable is an IEnumerable<IGrouping<string, Student>>
+ var studentQuery3 =
+     from student in students
+     group student by student.Last;
+```
